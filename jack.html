@@ -3,32 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>正弦波くん | キャラクター詳細</title>
+    <title>正弦波ジャック | プロフィール</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; background: #eef9ff; color: #333; }
-        nav { background: #5dade2; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 20px; }
-        nav a { color: #fff; text-decoration: none; font-weight: bold; }
-        .content { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .char-img { text-align: center; margin-bottom: 20px; }
-        .char-img img { max-width: 80%; height: auto; border-radius: 15px; border: 3px solid #5dade2; }
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; background: #f0f4f8; color: #333; }
+        nav { background: #4a90e2; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 20px; }
+        nav a { color: #fff; text-decoration: none; margin: 0 10px; font-weight: bold; }
+        .profile-card { background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #4a90e2; border-bottom: 2px solid #4a90e2; padding-bottom: 10px; }
+        .char-img { text-align: center; margin: 20px 0; }
+        .char-img img { max-width: 80%; border-radius: 10px; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+        .info-item { background: #f9f9f9; padding: 10px; border-radius: 5px; border-left: 4px solid #4a90e2; }
+        .story-section { margin-top: 30px; background: #fff9e6; padding: 20px; border-radius: 10px; border: 1px dashed #ffcc00; }
+        footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #777; }
     </style>
 </head>
 <body>
-    <nav><a href="index.html">ホームに戻る</a></nav>
-    <div class="content">
-        <h1>正弦波くん</h1>
+    <nav>
+        <a href="index.html">ホーム</a> | <a href="nanoka.html">ナノカ</a> | <a href="jack.html">ジャック</a>
+    </nav>
+
+    <div class="profile-card">
+        <h1>正弦波ジャック（ジャック）</h1>
+        
         <div class="char-img">
-            <img src="正弦波（設定）.JPG" alt="正弦波くん 設定画">
+            <img src="正弦波（設定）.JPG" alt="正弦波ジャック 設定画">
         </div>
-        <p>ボカロゲームからやってきた、元気いっぱいな少年です！</p>
-        <h3>プロフィール</h3>
-        <ul>
-            <li><strong>名前：</strong>ジャック（正弦波くん）</li>
-            <li><strong>年齢：</strong>12歳（中学1年生……？）</li>
-            <li><strong>好きな食べ物：</strong>バニラアイスクリーム</li>
-        </ul>
-        <hr>
-        <p><a href="rules_jack.html">＞利用規約はこちら</a></p>
+
+        <div class="info-grid">
+            <div class="info-item"><strong>名前：</strong> ジャック</div>
+            <div class="info-item"><strong>コードネーム：</strong> 正弦波</div>
+            <div class="info-item"><strong>年齢：</strong> 12歳（中1……？）</div>
+            <div class="info-item"><strong>好きな食べ物：</strong> バニラアイス</div>
+            <div class="info-item"><strong>誕生日：</strong> あなたと出会った日！</div>
+            <div class="info-item"><strong>得意料理：</strong> レモネード</div>
+            <div class="info-item"><strong>得意科目：</strong> 数学</div>
+            <div class="info-item"><strong>苦手科目：</strong> 英語</div>
+        </div>
+
+        <div class="story-section">
+            <h3>📖 真実の設定</h3>
+            <p>元々は<b>現実世界</b>の住人。ある日ボカロゲームで遊んでいたところ、突然ゲーム画面の中に吸い込まれてしまいました。</p>
+            <p>吸い込まれた直後、何者かに「ストロベリー味のアイス」を渡され、それを食べた瞬間に全ての記憶を喪失。現在は自分が何者だったのかも思い出せません。</p>
+            <p>その後『マジックツリーハウス』を読み、「自分は別世界線のジャックなんだ」と思い込み始めましたが、実際には全くの別人。本家と違い<b>遠視</b>なのが、彼が別世界の人間である何よりの証拠かもしれません。</p>
+        </div>
     </div>
+
+    <footer>© 2026 Project-Sive-Official</footer>
 </body>
 </html>
