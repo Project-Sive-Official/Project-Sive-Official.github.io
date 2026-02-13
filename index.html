@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sive Project Official | HOME</title>
+    <style>
+        /* 背景をダークグレーにして目に優しく */
+        body { 
+            font-family: sans-serif; 
+            line-height: 1.6; 
+            max-width: 900px; 
+            margin: auto; 
+            padding: 0; 
+            background: #1a1c1e; 
+            color: #e0e0e0; 
+        }
+        
+        nav { 
+            background: #000; 
+            padding: 20px; 
+            text-align: center; 
+            border-bottom: 1px solid #333;
+        }
+        nav a { color: #fff; text-decoration: none; margin: 0 10px; font-weight: bold; }
+        nav a:hover { color: #8ecae6; }
+
+        .container { padding: 20px; }
+        .card { 
+            background: #25282c; 
+            padding: 40px 20px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5); 
+            margin-bottom: 30px; 
+            text-align: center; 
+            border: 1px solid #333;
+        }
+
+        h1 { color: #fff; margin-bottom: 30px; }
+
+        .hero-images { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .img-box { width: 40%; max-width: 280px; }
+        .hero-images img { width: 100%; height: auto; border-radius: 10px; transition: 0.3s; border: 1px solid #444; }
+        .hero-images img:hover { transform: scale(1.05); }
+
+        /* 利用規約ボタンのスタイル */
+        .btn-rules {
+            display: inline-block;
+            background: #3a3f44;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            margin: 20px 0;
+            font-weight: bold;
+            border: 1px solid #555;
+            transition: 0.3s;
+        }
+        .btn-rules:hover {
+            background: #e63946;
+            border-color: #e63946;
+            transform: translateY(-2px);
+        }
+
+        .notice { 
+            background: #2d3136; 
+            border-left: 5px solid #e63946; 
+            padding: 20px; 
+            border-radius: 8px; 
+            text-align: left;
+            color: #ccc;
+        }
+        
+        footer { text-align: center; padding: 40px; color: #666; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">ホーム</a> | <a href="nanoka.html">正幻波ナノカ</a> | <a href="jack.html">正弦波ジャック</a>
+    </nav>
+    
+    <div class="container">
+        <div class="card">
+            <h1>Sive Project Official</h1>
+            <div class="hero-images">
+                <div class="img-box">
+                    <img src="ナノカ（ホーム）.AVIF" alt="ナノカ">
+                    <p style="color:#8ecae6; font-weight:bold;">正幻波ナノカ</p>
+                </div>
+                <div class="img-box">
+                    <img src="正弦波（ホーム）.JPG" alt="正弦波くん">
+                    <p style="color:#e63946; font-weight:bold;">正弦波ジャック</p>
+                </div>
+            </div>
+            <p>UTAU単独音音源ライブラリーの配布サイトです！</p>
+            <p style="font-size: 0.9rem; color: #8ecae6; margin-top: -10px;">
+                サイト内の画像のダウンロードは全面的にOKです！<br>
+                右クリック又は長押しでダウンロードしてください
+            </p>
+            
+            <a href="rules.html" class="btn-rules">利用規約を確認する</a>
+        </div>
+
+        <div class="notice">
+            <h3 style="color: #e63946; margin-top: 0;">AI生成について</h3>
+            <p>個人で楽しむ範囲（夢小説等）は自由ですが、SNSや動画サイトへの公開はご遠慮ください。</p>
+        </div>
+    </div>
+
+    <footer style="text-align: center; padding: 40px; color: #666; font-size: 0.8em;">
+        <p>【連絡先】 <a href="mailto:0329.mth@gmail.com" style="color: #8ecae6; text-decoration: none;">0329.mth@gmail.com</a></p>
+        © 2026 Project-Sive-Official
+    </footer>
+
+</body>
+</html>
