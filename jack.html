@@ -5,52 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>正弦波ジャック | プロフィール</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; background: #fff5f5; color: #333; }
-        /* ナビゲーションを赤系に */
-        nav { background: #e63946; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 20px; }
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; background: #121212; color: #e0e0e0; }
+        nav { background: #333; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 20px; border: 1px solid #444; }
         nav a { color: #fff; text-decoration: none; margin: 0 10px; font-weight: bold; }
-        .profile-card { background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(230,57,70,0.2); }
-        /* 見出しを赤に */
-        h1 { color: #e63946; border-bottom: 2px solid #e63946; padding-bottom: 10px; }
+        .profile-card { background: #1e1e1e; padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(230,57,70,0.3); border: 1px solid #333; }
+        h1 { color: #ff4d4d; border-bottom: 2px solid #ff4d4d; padding-bottom: 10px; }
         .char-img { text-align: center; margin: 20px 0; }
-        .char-img img { max-width: 80%; border-radius: 10px; border: 3px solid #e63946; }
-        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
-        .info-item { background: #fdf2f2; padding: 10px; border-radius: 5px; border-left: 4px solid #e63946; }
-        .story-section { margin-top: 30px; background: #fff9e6; padding: 20px; border-radius: 10px; border: 1px dashed #ffcc00; }
-        footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #777; }
+        .char-img img { max-width: 80%; border-radius: 10px; border: 2px solid #ff4d4d; }
+        
+        .profile-list { list-style: none; padding: 0; margin: 20px 0; }
+        .profile-list li { background: #2a2a2a; margin-bottom: 8px; padding: 12px; border-radius: 5px; border-left: 4px solid #ff4d4d; }
+        .profile-list li strong { color: #ff4d4d; margin-right: 10px; display: inline-block; width: 140px; }
+        
+        .story-section { margin-top: 30px; background: #251a1a; padding: 20px; border-radius: 10px; border: 1px dashed #ff4d4d; color: #f0f0f0; }
+        footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #666; }
     </style>
 </head>
 <body>
     <nav>
         <a href="index.html">ホーム</a> | <a href="nanoka.html">ナノカ</a> | <a href="jack.html">ジャック</a>
     </nav>
-
     <div class="profile-card">
-        <h1>正弦波ジャック（ジャック）</h1>
-        
+        <h1>正弦波ジャック プロフィール</h1>
         <div class="char-img">
-            <img src="正弦波（設定）.JPG" alt="正弦波ジャック 設定画">
+            <img src="正弦波（設定）.JPG" alt="正弦波ジャック">
         </div>
 
-        <div class="info-grid">
-            <div class="info-item"><strong>名前：</strong> ジャック</div>
-            <div class="info-item"><strong>コードネーム：</strong> 正弦波</div>
-            <div class="info-item"><strong>年齢：</strong> 12歳（中1……？）</div>
-            <div class="info-item"><strong>好きな食べ物：</strong> バニラアイス</div>
-            <div class="info-item"><strong>誕生日：</strong> あなたと出会った日！</div>
-            <div class="info-item"><strong>得意料理：</strong> レモネード</div>
-            <div class="info-item"><strong>得意科目：</strong> 数学</div>
-            <div class="info-item"><strong>苦手科目：</strong> 英語</div>
-        </div>
+        <ul class="profile-list">
+            <li><strong>名前</strong> ジャック</li>
+            <li><strong>コードネーム</strong> 正弦波</li>
+            <li><strong>年齢</strong> 12歳中学1年生……なのか？</li>
+            <li><strong>好きな食べ物</strong> バニラアイスクリーム</li>
+            <li><strong>嫌いな食べ物</strong> トマト</li>
+            <li><strong>好きなもの</strong> ゲーム</li>
+            <li><strong>嫌いなもの</strong> 裁縫</li>
+            <li><strong>得意科目</strong> 数学</li>
+            <li><strong>苦手科目</strong> 英語</li>
+            <li><strong>得意料理</strong> レモネード</li>
+            <li><strong>性格</strong> 歌うよりお喋りが大好き、元気いっぱい！</li>
+            <li><strong>キャッチコピー</strong> 僕になんでも歌わせて！</li>
+            <li><strong>口癖</strong> 僕のがほんとのジャックだもん！</li>
+            <li><strong>血液型・MBTI</strong> あなた次第です（迷った際は「性格：歌うよりお喋りが好き」をご利用ください）</li>
+            <li><strong>誕生日</strong> あなたと出会った日！</li>
+        </ul>
 
         <div class="story-section">
-            <h3>真実の設定</h3>
-            <p>元々は<b>現実世界</b>の住人。ある日ボカロゲームで遊んでいたところ、突然ゲーム画面の中に吸い込まれてしまいました。</p>
-            <p>吸い込まれた直後、何者かに「ストロベリー味のアイス」を渡され、それを食べた瞬間に全ての記憶を喪失。現在は自分が何者だったのかも思い出せません。</p>
-            <p>その後『マジックツリーハウス』を読み、「自分は別世界線のジャックなんだ」と思い込み始めましたが、実際には全くの別人。本家と違い<b>遠視</b>なのが、彼が別世界の人間である何よりの証拠かもしれません。</p>
+            <h3>📖 設定</h3>
+            <p>彼はある日ボカロゲームで遊んでいたら、突然画面の中に吸い込まれてしまいます。吸い込まれた直後、誰かにストロベリー味のアイスを渡され、それを食べた瞬間、全ての記憶を失いました。</p>
+            <p>UTAU世界で児童書『マジックツリーハウス』を読んだことをきっかけに、主人公ジャックと自分が似ていると感じ、「自分は別世界線のジャックなのだ」と本気で思い込むようになります。実際にはまったくの別人。本名も忘れてしまったため、現在は“ジャック”として生きています。</p>
+            <p>正弦波ジャックも本家と同様、メガネをかけていますが、近視の本家とは違い視力は<b>遠視</b>であり、本を読む際に目を細める癖があります。</p>
         </div>
     </div>
-
     <footer>© 2026 Project-Sive-Official</footer>
 </body>
 </html>
